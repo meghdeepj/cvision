@@ -75,6 +75,7 @@ cv2.namedWindow('ima_true', cv2.WINDOW_NORMAL)
 cv2.resizeWindow('ima_true', 600,600)
 cv2.imshow("ima_true", img2_true)
 cv2.waitKey(0)
+
 ret, mtx, dst, rvecs, tvecs = cv2.calibrateCamera(obj_pts, img_pts, (1200,1200), None, None)
 print('int_mat: ', mtx)
 print('dist_mat: ', dst)
