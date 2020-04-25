@@ -58,7 +58,7 @@ w=img1.shape[1]
 f_x=mtx[0,0]
 f_y=mtx[1,1]
 
-#Manufacturer data, width and height of
+#Manufacturer data, width and height of sensor
 W=6.4
 H=4.8
 print('From manufacturer\'s data, sensor is of type 1/2" with W=',W,' mm and H=', H,' mm')
