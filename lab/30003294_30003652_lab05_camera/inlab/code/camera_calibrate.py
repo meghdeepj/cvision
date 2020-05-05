@@ -65,6 +65,7 @@ proj_pts2=[]
 proj_error=[]
 for i in range(len(obj_pts)):
 	img_pts2, _ = cv2.projectPoints(obj_pts[i], rvecs[i], tvecs[i], mtx, dst)
+	print(obj_pts[i].shape,img_pts2)
 	for pts in img_pts2:
 		if i==0:
 			proj_pts1.append(pts)
