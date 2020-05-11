@@ -77,6 +77,7 @@ if __name__=='__main__':
     X=xx.reshape(-1,1)
     Y=yy.reshape(-1,1)
     Z=X*0+1
+    Z+=20*np.exp(-0.5*((X*1.0/W)/0.1)**2)/(0.1*np.sqrt(2*np.pi))
 
     pts3d=np.concatenate((X,Y,Z,X*0+1),axis=1).T
     # pts3d=np.concatenate((X,Y,Z),axis=1)
