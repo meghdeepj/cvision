@@ -13,6 +13,7 @@ def get_data():
 
 	return intx, front, side
 
+<<<<<<< HEAD
 def draw_book_on_img(img,corners,imgpts):
 	imgpts = np.int32(imgpts).reshape(-1,2)
 	# draw ground floor in green
@@ -55,6 +56,11 @@ if __name__ == '__main__':
 
 
 
+=======
+
+if __name__ == '__main__':
+	intx, front,side = get_data()
+>>>>>>> e2d881d1344a0a5f5a99aa1584e4c8f3d4f8eada
 
 # cv2.namedWindow('ima_true', cv2.WINDOW_NORMAL)
 # cv2.resizeWindow('ima_true', 600,600)
