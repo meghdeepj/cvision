@@ -1,4 +1,4 @@
-# Repository of Projects, Courses and Competitions on Computer Vision
+# Repository of Independent Projects, Courses and Competitions on Computer Vision
 
 Contents
   1. Project - Fall Detection System using Deep Learning
