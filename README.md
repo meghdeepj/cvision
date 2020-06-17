@@ -8,13 +8,14 @@ Projects (code can be found in "projects" folder)
      
    1. Social Distancing Detection - COVID19 Challenge
     
-   Through background seperation and frame-to-frame difference, humans are detected using motion detection. The countour detected bounding boxes then provide enough information to detect violation of social distancing using thresholding techniques. 
+   Through background seperation and frame-to-frame difference, humans are detected using motion detection. The countour detected bounding boxes then provide enough information to detect violation of social distancing using thresholding techniques. The observation shows that it is scale invariant.
 <p align="center">    
    <img src="images/tracksd_raw.png" width="400" title="canny">
    <img src="images/tracksd_nkgrd.png" width="400" title="lane">
    <img src="images/tracksd.png" width="400" title="lane video">
   <img src="images/tracksd1.png" width="400" title="lane video">
-  <img src="images/tracksd2.png" width="400" title="lane video">
+  <img src="images/track_close.png" width="400" title="lane video">
+  <img src="images/track_good.png" width="400" title="lane video">
   <img src="images/tracksd3.png" width="400" title="lane video">
   <img src="images/tracksd4.png" width="400" title="lane video">
 </p>
@@ -42,7 +43,7 @@ Projects (code can be found in "projects" folder)
 <p align="center">    
    <img src="images/road_canny.png" width="500" title="canny">
    <img src="images/lanes.png" width="600" title="lane">
-<!--    <img src="images/face_kp_me.jpeg" width="1000" title="lane video"> -->
+   <img src="images/lane-det.gif" width="800" title="lane video">
 </p>
 
   5. Facial Keypoint Detection Challenge
