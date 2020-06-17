@@ -21,6 +21,7 @@ Projects (code can be found in "projects" folder)
 </p>
 
   2. Computer Vision based Pick and Place Robotic Manipulator Arm
+  
       My work as a summer research intern at Bio-robotics Lab, Hanyang University, Seoul, South Korea. Detection, localization and pose estimation of object using Convolutional Neural Networks and depth cameras. Utilised the Faster-RCNN algorithm for object detection. Refer to this repository for details: [[Vision-Maniupulator](https://github.com/meghdeepj/vision-mani.git)]
  <p align="center">    
    <img src="images/vison.jpg" width="600" title="canny">
