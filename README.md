@@ -1,4 +1,4 @@
-# Repository of Independent Projects, Courses and Competitions on Computer Vision
+# Repository of Independent Projects, Courses and Competitions on Computer Vision, Deep Learning for Vision
 
 Courses
   - CS763: Computer Vision Spring 2020 course at IIT Bombay (Assignments and Lab Sessions)
