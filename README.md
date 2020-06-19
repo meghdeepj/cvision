@@ -3,6 +3,7 @@
 Courses
   - CS763: Computer Vision Spring 2020 course at IIT Bombay (Assignments and Lab Sessions)
   - Fundamentals of Image and Video Processing (NWU, Coursera)
+  - Deep Learning Specialization (deeplearning.ai, Coursera)
   
 Projects (code can be found in "projects" folder)
      
